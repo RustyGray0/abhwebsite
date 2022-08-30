@@ -1,9 +1,25 @@
-body {
-    background-color: gray;
+body, html {
+    height: 99%;
+    background-color: white;
 }
 
-#image {
-    width: 75px;
-    height: 75px;
-    float: left;
+#box {
+    border-style: solid;
+    border-color: black;
+    border-left: none;
+    border-width: 2px;
+    margin-left: -8px;
+    height: 100%;
+}
+
+#nav-list {
+    display: inline;
+
+}
+
+.nav-item {
+    background-color: blueviolet;
+    border: none;
+    padding: 10px;
+    margin: 5px;
 }
