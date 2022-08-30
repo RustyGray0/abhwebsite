@@ -1,6 +1,7 @@
 body, html {
     height: 99%;
     background-color: white;
+    scroll-behavior: smooth;
 }
 
 #box {
@@ -12,14 +13,22 @@ body, html {
     height: 100%;
 }
 
-#nav-list {
-    display: inline;
-
-}
-
-.nav-item {
-    background-color: blueviolet;
-    border: none;
+.nav-link {
+    display: block;
+    text-decoration: none;
+    background-color: #0066cc;
+    color: black;
+    font-weight: bold;
     padding: 10px;
     margin: 5px;
+}
+
+.nav-link:hover{
+    background-color: #0033cc;
+    padding: 12px;
+    margin: 7px;
+}
+
+#nav {
+    width: 10%;
 }
